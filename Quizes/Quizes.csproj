@@ -1,0 +1,58 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Core\Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="DataBase\ArrayNamesR.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>ArrayNamesR.resx</DependentUpon>
+    </Compile>
+    <Compile Update="DataBase\BuildingBlocksR.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>BuildingBlocksR.resx</DependentUpon>
+    </Compile>
+    <Compile Update="DataBase\BuildingBlockVQuizesBaseR.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>BuildingBlockVQuizesBaseR.resx</DependentUpon>
+    </Compile>
+    <Compile Update="DataBase\DataTypesR.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>DataTypesR.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="DataBase\ArrayNamesR.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ArrayNamesR.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="DataBase\BuildingBlocksR.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>BuildingBlocksR.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="DataBase\BuildingBlockVQuizesBaseR.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>BuildingBlockVQuizesBaseR.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="DataBase\DataTypesR.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>DataTypesR.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
