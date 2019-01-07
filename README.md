@@ -11,26 +11,34 @@ Objecten aanmaken
 -methods oproepen
 
 Datastructuur
-List<T>, (ter vervanging van array's)
+- List<T>, (ter vervanging van array's)
 
 ## Maandag 21 januari - Classen en objecten
-Overerving
-static
+-Overerving
+-static
+
 -methods
+
 -properties
+
 -composite classes
+
 -static
 
 ## Maandag 04 februari - Action and Func<T>
-Een referency naar een method
-anonymous method
-lambda expression
+- Een referency naar een method
+- anonymous method
+- lambda expression
 
 ## Maandag 18 februari - LINQ
 Clauses
+
 -Where
+
 -Select
+
 -FirstOrDefault
+
 -Any
 
 ## Maandag 11 maart - Hard coded Database + uitleg projecten
