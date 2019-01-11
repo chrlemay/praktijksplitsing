@@ -26,7 +26,7 @@ namespace SyntraWestCSharpExercises
             // Als je met een menu wilt werken mag je oefening leeg laten;
             // vul oefening in in de vorm 'buildingBlock.Opdracht'
             // vb 2.6 of 2_6
-            string oefening = "9.2";
+            string oefening = "9.3";
 
             #region mainLogic
 

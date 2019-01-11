@@ -1,10 +1,14 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace SyntraWestCSharpExercises.BuildingBlock9_Classes.Opdracht09_04Vuilbak
+namespace Vuilbak
 {
-    public class Opdracht09_03Vuilbak : ExerciseBase
+    class Program
     {
-        public override void RunExercise()
+        static void Main(string[] args)
         {
             string stop = "";
             Console.WriteLine(" hoeveel stukken passen in de vuilbak :");
@@ -34,10 +38,11 @@ namespace SyntraWestCSharpExercises.BuildingBlock9_Classes.Opdracht09_04Vuilbak
 
                 }
 
-
-
-
             }
+
+
+
+
         }
     }
 }
