@@ -8,6 +8,7 @@ namespace SyntraWestCSharpExercises.BuildingBlock8_Methods
     {
         public override void RunExercise()
         {
+
         }
     }
 }
