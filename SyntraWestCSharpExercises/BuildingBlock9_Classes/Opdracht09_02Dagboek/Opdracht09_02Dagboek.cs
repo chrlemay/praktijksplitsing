@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace SyntraWestCSharpExercises.BuildingBlock9_Classes.Opdracht09_02Dagboek
 {

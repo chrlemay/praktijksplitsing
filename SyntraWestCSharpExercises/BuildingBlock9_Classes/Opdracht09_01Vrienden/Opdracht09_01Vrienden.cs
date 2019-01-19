@@ -1,6 +1,6 @@
 ﻿using SyntraWestCSharpExercises.BuildingBlock9_Classes.Opdracht09_01Vrienden;
 using System;
-namespace SyntraWestCSharpExercises.BuildingBlock9_Classes.Opdracht09_03Vrienden
+namespace SyntraWestCSharpExercises.BuildingBlock9_Classes.Opdracht09_01Vrienden
 {
     public class Opdracht09_01Vrienden : ExerciseBase
     {

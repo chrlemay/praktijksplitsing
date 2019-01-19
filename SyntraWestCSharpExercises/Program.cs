@@ -10,12 +10,12 @@ using SyntraWestCSharpExercises.BuildingBlock6_IntroOOP.Opdracht06_00Facturen;
 using SyntraWestCSharpExercises.BuildingBlock7_OOP.Voorbeeld07_00Boeken;
 using SyntraWestCSharpExercises.BuildingBlock7_OOP.Opdracht07_01Videotheek;
 using SyntraWestCSharpExercises.BuildingBlock8_Methods;
-using SyntraWestCSharpExercises.BuildingBlock9_Classes.Opdracht09_01Rekenmachine;
+using SyntraWestCSharpExercises.BuildingBlock9_Classes.Opdracht09_01Vrienden;
 using SyntraWestCSharpExercises.BuildingBlock9_Classes.Opdracht09_02Dagboek;
-using SyntraWestCSharpExercises.BuildingBlock9_Classes.Opdracht09_03Vrienden;
-using SyntraWestCSharpExercises.BuildingBlock9_Classes.Opdracht09_04Vuilbak;
 using SyntraWestCSharpExercises.BuildingBlock9_Classes.Opdracht09_05Pretpark;
 using SyntraWestCSharpExercises.BuildingBlock9_Classes.Opdracht09_06RodeKruis;
+using SyntraWestCSharpExercises.BuildingBlock9_Classes.Opdracht09_03Vuilbak;
+using SyntraWestCSharpExercises.BuildingBlock9_Classes.Opdracht09_04Rekenmachine;
 
 namespace SyntraWestCSharpExercises
 {
@@ -26,7 +26,7 @@ namespace SyntraWestCSharpExercises
             // Als je met een menu wilt werken mag je oefening leeg laten;
             // vul oefening in in de vorm 'buildingBlock.Opdracht'
             // vb 2.6 of 2_6
-            string oefening = "9.4";
+            string oefening = "9.5";
 
             #region mainLogic
 
@@ -38,10 +38,12 @@ namespace SyntraWestCSharpExercises
             {
                 Console.WriteLine(e.Message);
             }
-            catch (IndexOutOfRangeException e)
+
+           catch (IndexOutOfRangeException e)
             {
                 Console.WriteLine(e.Message);
             }
+
             catch (Exception e)
             {
                 Console.WriteLine($"Er is Exception gesmeten tijdens het runnen van je programma\n" +
@@ -386,13 +388,15 @@ namespace SyntraWestCSharpExercises
                 {
                     { "1", () => opdracht9_1.RunExercise() },
                     { "2", () => opdracht9_2.RunExercise() },
-                    { "3", () => opdracht9_3.RunExercise() },
+                    { "3", () => Opdracht9_3.RunExercise() },
                     { "4", () => opdracht9_4.RunExercise() },
                     { "5", () => opdracht9_5.RunExercise() },
                     { "6", () => opdracht9_6.RunExercise() }
                 }
             }
         };
+
+        public static ExerciseBase Opdracht9_3 { get => opdracht9_3; set => opdracht9_3 = value; }
 
         #endregion
 

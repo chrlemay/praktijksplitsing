@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace SyntraWestCSharpExercises.BuildingBlock6_IntroOOP.Opdracht06_00Facturen
+﻿namespace SyntraWestCSharpExercises.BuildingBlock6_IntroOOP.Opdracht06_00Facturen
 {
     public class Btw
     {

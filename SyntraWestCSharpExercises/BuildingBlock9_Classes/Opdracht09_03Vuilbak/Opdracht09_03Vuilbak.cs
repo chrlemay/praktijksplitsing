@@ -1,6 +1,5 @@
 ﻿using System;
-using SyntraWestCSharpExercises.BuildingBlock9_Classes.Opdracht09_03Vuilbak;
-namespace SyntraWestCSharpExercises.BuildingBlock9_Classes.Opdracht09_04Vuilbak
+namespace SyntraWestCSharpExercises.BuildingBlock9_Classes.Opdracht09_03Vuilbak
 {
     public class Opdracht09_03Vuilbak : ExerciseBase
     {

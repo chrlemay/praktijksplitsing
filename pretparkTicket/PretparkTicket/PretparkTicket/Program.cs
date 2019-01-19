@@ -1,16 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace SyntraWestCSharpExercises.BuildingBlock9_Classes.Opdracht09_05Pretpark
+namespace PretparkTicket
 {
-    public class Opdracht09_05Pretpark : ExerciseBase
+    class Program
     {
-
-
-        public override void RunExercise()
+        static void Main(string[] args)
         {
-            //List<int> kasticket = new List<int>();
             List<int> Kasticket = new List<int>();
             List<int> TicketAantal = new List<int>();
             int ticketnummer = 0;
@@ -24,7 +23,7 @@ namespace SyntraWestCSharpExercises.BuildingBlock9_Classes.Opdracht09_05Pretpark
             decimal[] CategoriePrijs = { 12.5m, 15m, 5m, 6m, };
             int[] categorieAantal = new int[4];
             string[] uitvoering = { "1) nieuw ticket", "2) tickets weergeven", "3) ticket weizigen ", "4) klant per categorie", "5) dag rapport", "\n\n 0) stoppen " };
-            //switch 
+           
             while (keuzeUitvoering != 0)
             {
                 for (int i = 0; i < uitvoering.Length; i++)
@@ -84,10 +83,7 @@ namespace SyntraWestCSharpExercises.BuildingBlock9_Classes.Opdracht09_05Pretpark
 
                             Console.WriteLine(" volgend ticket  [ druk 'enter'] [druk '*' voor stoppen]");
                             stop = Console.ReadLine();
-                            // Console.Clear();
-                            //Console.WriteLine($"{uitvoering[keuzeUitvoering - 1]}");
-                            //lijn = new string('=', uitvoering[keuzeUitvoering].Length);
-
+                           
 
                         }
 
@@ -205,9 +201,7 @@ namespace SyntraWestCSharpExercises.BuildingBlock9_Classes.Opdracht09_05Pretpark
                         foreach (int ticketnr in Kasticket)
                         {
                             if (ticketnr % 3 == 0) { Console.Clear(); }
-                            //Console.WriteLine($" klant ticket { ticketnr}");
-
-
+                          
                             for (int i = 0; i < 4; i++)
                             {
 
@@ -230,11 +224,10 @@ namespace SyntraWestCSharpExercises.BuildingBlock9_Classes.Opdracht09_05Pretpark
 
                         }
                         Console.WriteLine($" Totaal van alle tickets  { ticketTotaal}\n");
-                        Console.WriteLine($" kortingen toegekend aan kinderen {(PrijsTotPerCat[2] / CategoriePrijs[2]) * (CategoriePrijs[0]- CategoriePrijs[2])}    ");
-                        Console.WriteLine($" kortingen toegekend aan volwassen {(PrijsTotPerCat[3] / CategoriePrijs[3]) * (CategoriePrijs[1]- CategoriePrijs[3])} \n");
+                        Console.WriteLine($" kortingen toegekend aan kinderen {(PrijsTotPerCat[2] / CategoriePrijs[2]) * (CategoriePrijs[0] - CategoriePrijs[2])}    ");
+                        Console.WriteLine($" kortingen toegekend aan volwassen {(PrijsTotPerCat[3] / CategoriePrijs[3]) * (CategoriePrijs[1] - CategoriePrijs[3])} \n");
 
-
-                       
+                        
                         Console.WriteLine("om  vervolgen ] [druk '*' voor stoppen]");
                         stop = Console.ReadLine();
                         break;
@@ -257,6 +250,3 @@ namespace SyntraWestCSharpExercises.BuildingBlock9_Classes.Opdracht09_05Pretpark
         }
     }
 }
-
-
-

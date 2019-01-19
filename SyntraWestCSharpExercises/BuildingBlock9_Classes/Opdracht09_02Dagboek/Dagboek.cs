@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace SyntraWestCSharpExercises.BuildingBlock9_Classes.Opdracht09_02Dagboek
 {
@@ -14,7 +13,7 @@ namespace SyntraWestCSharpExercises.BuildingBlock9_Classes.Opdracht09_02Dagboek
             DagboekN = dagboekNaam;                      // Dagboek wordt gelijk de waarde van de parameter gegeven dagboekNaam
         }
 
-        public void SchrijfNieuwePagina()
+       public void SchrijfNieuwePagina()
         {
              string tekst = "";
             while (tekst != "stop")
@@ -25,6 +24,7 @@ namespace SyntraWestCSharpExercises.BuildingBlock9_Classes.Opdracht09_02Dagboek
                     boek.Add(tekst);
             }
         }
+        
 
         public void PrintBoek()
         {

@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace SyntraWestCSharpExercises.BuildingBlock5_Arrays
 {

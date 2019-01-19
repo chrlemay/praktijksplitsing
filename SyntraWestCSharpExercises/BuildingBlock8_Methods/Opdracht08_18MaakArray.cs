@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace SyntraWestCSharpExercises.BuildingBlock8_Methods
+﻿namespace SyntraWestCSharpExercises.BuildingBlock8_Methods
 {
     class Opdracht08_18MaakArray : ExerciseBase
     {
